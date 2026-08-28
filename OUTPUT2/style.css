@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation (shared via header.php)*/
+.navbar {
+    background-color: #1a2530;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .brand {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .nav-links a {
+    color: #d0d7de;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/*Page wrapper*/
+.page-content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 25px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h1 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #1a2530;
+}
+
+.card p.subtitle {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+/*Home page*/
+.hero {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #1a2530;
+}
+
+.hero p {
+    color: #5f6c76;
+    font-size: 15px;
+    max-width: 480px;
+    margin: 10px auto 25px;
+}
+
+.hero-actions a {
+    display: inline-block;
+    padding: 10px 22px;
+    margin: 0 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #2e86de;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1b6fc2;
+}
+
+.btn-secondary {
+    background-color: #e0e4e8;
+    color: #2c3e50;
+}
+
+.btn-secondary:hover {
+    background-color: #c9ced3;
+}
+
+/*Forms*/
+form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 14px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #b0b8c1;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+form .form-actions {
+    margin-top: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #2e86de;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1b6fc2;
+}
+
+.helper-links {
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.helper-links a {
+    color: #2e86de;
+    text-decoration: none;
+}
+
+.helper-links a:hover {
+    text-decoration: underline;
+}
+
+/*Footer shared via footer.php*/
+.site-footer {
+    text-align: center;
+    padding: 18px 10px;
+    color: #9aa4ad;
+    font-size: 12px;
+    margin-top: 40px;
+}
